@@ -1,12 +1,12 @@
-package com.dongnao.iterator;
+package com.example.administrator.patterndesign.IteratorPattern;
 
 public class Client {
 	public static void main(String[] args) {
-		//ÊµÀı»¯ÈİÆ÷Àà¶ÔÏó
+		//Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		Aggregate<String> aggregate=new ConcreteAggregate<>();
 		
-		aggregate.add("ÕÅÈı");
-		aggregate.add("ÀîËÄ");
+		aggregate.add("ï¿½ï¿½ï¿½ï¿½");
+		aggregate.add("ï¿½ï¿½ï¿½ï¿½");
 		Iterator<String> iterator=aggregate.iterator();
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());

@@ -1,8 +1,8 @@
-package com.dongnao.sixrule;
+package com.example.administrator.patterndesign.sixrule;
 
 public interface IPhone {
 	/**
-	 * 拨通电话
+	 * 锟斤拷通锟界话
 	 * @param number
 	 */
 	public void dial(String number);

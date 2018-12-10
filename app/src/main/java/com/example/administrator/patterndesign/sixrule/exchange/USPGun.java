@@ -1,12 +1,12 @@
-package com.dongnao.sixrule.exchange;
+package com.example.administrator.patterndesign.sixrule.exchange;
 
 public class USPGun implements IGun {
 
 	@Override
 	public void fire() {
-		System.out.println("USP: ©╙г╧ак");
+		System.out.println("USP: О©╫О©╫г╧О©╫О©╫");
 	}
 	public void fire(int number) {
-		System.out.println("USP: ©╙г╧ак");
+		System.out.println("USP: О©╫О©╫г╧О©╫О©╫");
 	}
 }

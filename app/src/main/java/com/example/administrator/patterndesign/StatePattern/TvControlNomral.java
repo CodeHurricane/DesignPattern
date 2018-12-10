@@ -1,52 +1,52 @@
-package com.dongnao.state;
+package com.example.administrator.patterndesign.StatePattern;
 /**
- * ²Ù¿ØµçÊÓÀà
+ * ï¿½Ù¿Øµï¿½ï¿½ï¿½ï¿½ï¿½
  * @author Administrator
  *
  */
 public class TvControlNomral {
-	//¿ª»ú×´Ì¬
+	//ï¿½ï¿½ï¿½ï¿½×´Ì¬
 	private  final static int POWER_ON=1;
-	//¹Ø»ú×´Ì¬
+	//ï¿½Ø»ï¿½×´Ì¬
 	private final static int POWER_OFF=2;
 	
 	public int mState=POWER_OFF;
 	/**
-	 * ¿ª»ú
+	 * ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void powerOn()
 	{
 		mState=POWER_ON;
 		if(mState==POWER_OFF)
 		{
-			System.out.println("¿ª»úÁË£¬Äã¿ÉÒÔ¿ªµçÊÓÁË");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else {
-			System.out.println("ÒÑ¾­¿ª»ú£¬ÎÞÐ§");
+			System.out.println("ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§");
 		}
 	}
 	
 	/**
-	 * ¹Ø»ú
+	 * ï¿½Ø»ï¿½
 	 */
 	public void powerOff()
 	{
 		mState=POWER_OFF;
 		if(mState==POWER_ON)
 		{
-			System.out.println("µçÊÓÂíÉÏ¹Ø»ú");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹Ø»ï¿½");
 			
 		}else {
-			System.out.println("ÒÑ¾­¹Ø»ú  ÎÞÐ§");
+			System.out.println("ï¿½Ñ¾ï¿½ï¿½Ø»ï¿½  ï¿½ï¿½Ð§");
 		}
 	}
 	/**
-	 * ÇÐ»»ÆµµÀ
+	 * ï¿½Ð»ï¿½Æµï¿½ï¿½
 	 */
 	public void nextChannel()
 	{
 		if(mState==POWER_ON)
 		{
-			System.out.println("ÇÐ»»ÏÂÒ»ÆµµÀ");
+			System.out.println("ï¿½Ð»ï¿½ï¿½ï¿½Ò»Æµï¿½ï¿½");
 			
 		}
 		
@@ -56,7 +56,7 @@ public class TvControlNomral {
 	{
 		if(mState==POWER_ON)
 		{
-			System.out.println("ÇÐ»»ÉÏÒ»ÆµµÀ");
+			System.out.println("ï¿½Ð»ï¿½ï¿½ï¿½Ò»Æµï¿½ï¿½");
 		}
 	}
 }

@@ -1,12 +1,12 @@
-package com.dongnao.sixrule;
+package com.example.administrator.patterndesign.sixrule;
 
 public interface IDrawPictrue{
 	/**
-	 * »æÖÆÍ¼ÐÎ 
+	 * ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ 
 	 */
 	void drawPicture();
 	/**
-	 * »æÖÆ¾ØÐÎ
+	 * ï¿½ï¿½ï¿½Æ¾ï¿½ï¿½ï¿½
 	 */
 	void drawRect();
 	/**
@@ -15,7 +15,7 @@ public interface IDrawPictrue{
 	void showPictrue();
 	
 	/**
-	 * Õ¹Ê¾¾ØÐÎ
+	 * Õ¹Ê¾ï¿½ï¿½ï¿½ï¿½
 	 */
 	void showRect();
 

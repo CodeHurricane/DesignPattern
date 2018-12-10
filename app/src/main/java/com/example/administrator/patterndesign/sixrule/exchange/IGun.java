@@ -1,8 +1,8 @@
-package com.dongnao.sixrule.exchange;
+package com.example.administrator.patterndesign.sixrule.exchange;
 
 public interface IGun {
 	 /**
-	  * ¿ª»ð
+	  * ï¿½ï¿½ï¿½ï¿½
 	  */
 	void fire();
 }

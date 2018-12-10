@@ -1,12 +1,12 @@
-package com.dongnao.iterator;
+package com.example.administrator.patterndesign.IteratorPattern;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 /**
- * ¼äµý
-    ¾ßÌåµÄµü´ú½ÇÉ«
+ * ï¿½ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½É«
  * @author Administrator
  *
  * @param <T>

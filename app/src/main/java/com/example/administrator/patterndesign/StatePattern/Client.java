@@ -1,4 +1,4 @@
-package com.dongnao.state;
+package com.example.administrator.patterndesign.StatePattern;
 
 public class Client {
 		public static void main(String[] args) {

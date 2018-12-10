@@ -1,4 +1,4 @@
-package com.dongnao.state;
+package com.example.administrator.patterndesign.StatePattern;
 
 public interface TVState {
 	public void nextChannel();

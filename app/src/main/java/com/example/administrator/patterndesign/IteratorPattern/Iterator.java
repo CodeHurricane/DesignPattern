@@ -1,13 +1,13 @@
-package com.dongnao.iterator;
+package com.example.administrator.patterndesign.IteratorPattern;
 /**
- * ³éÏóµü´ú½Ó¿Ú
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½
  * @author Administrator
  *
  * @param <T>
  */
 public interface Iterator<T> {
 	/**
-	 * ÊÇ·ñ»¹ÓÐÏÂÒ»¸öÔªËØ
+	 * ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½
 	 * @return
 	 */
 	boolean hasNext();

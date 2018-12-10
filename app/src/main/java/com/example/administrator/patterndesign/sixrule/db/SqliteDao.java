@@ -1,6 +1,5 @@
-package com.dongnao.sixrule.db;
+package com.example.administrator.patterndesign.sixrule.db;
 
-import com.dongnao.sixrule.IPhone;
 
 public class SqliteDao {
 	/**
@@ -12,7 +11,7 @@ public class SqliteDao {
 	protected void insert(User  user)
 	{
 		/**
-		 * Êý¾Ý¿âÓï¾äµÄ²Ù×÷
+		 * ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½
 		 */
 		
 	}

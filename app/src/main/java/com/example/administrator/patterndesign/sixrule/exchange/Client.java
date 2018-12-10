@@ -1,13 +1,12 @@
-package com.dongnao.sixrule.exchange;
+package com.example.administrator.patterndesign.sixrule.exchange;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
 /**
- * µÍ²ãÄ£¿é
+ * ï¿½Í²ï¿½Ä£ï¿½ï¿½
  * @author Administrator
  */
 class  Book implements IReadContent{
 	public String getContent(){
-		return "É½ÀïÓĞ¸öÃí£¬ÃíÀïÓĞ¸öºÍÉĞ";
+		return "É½ï¿½ï¿½ï¿½Ğ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¸ï¿½ï¿½ï¿½ï¿½ï¿½";
 	}
 	
 }
@@ -15,12 +14,12 @@ class  Book implements IReadContent{
 class NewsPager implements IReadContent
 {
 	public String getContent(){
-		return "É½ÀïÓĞ¸öÃí£¬ÃíÀïÓĞ¸öºÍÉĞ";
+		return "É½ï¿½ï¿½ï¿½Ğ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¸ï¿½ï¿½ï¿½ï¿½ï¿½";
 	}
 	
 }
 /**
- * ³éÏó½Ó¿Ú
+ * ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½
  * @author Administrator
  *
  */
@@ -29,24 +28,24 @@ interface IReadContent
 	public String getContent();
 }
 /**
- * ¸ß²ãÄ£¿é
+ * ï¿½ß²ï¿½Ä£ï¿½ï¿½
  */
 class Mother
 {
 	public void narrate(IReadContent book)
 	{
-		System.out.println("ÂèÂè£º¿ªÊ¼½²¹ÊÊÂÁË");
-		System.out.println("¹ÊÊÂ£º "+book.getContent());
+		System.out.println("ï¿½ï¿½ï¿½è£ºï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½Â£ï¿½ "+book.getContent());
 	}
 
 }
-public class Client {
+public class Client{
 	
 public static void main(String[] args) {
 	 IReadContent newsPager=null;
 	 Mother mother=new Mother();
 	 newsPager=new NewsPager();
-	 //×¢Èë¶ÔÏó
+	 //×¢ï¿½ï¿½ï¿½ï¿½ï¿½
 	 mother.narrate(newsPager);
 }
 }

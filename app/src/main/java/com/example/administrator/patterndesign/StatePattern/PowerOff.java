@@ -1,4 +1,4 @@
-package com.dongnao.state;
+package com.example.administrator.patterndesign.StatePattern;
 
 public class PowerOff implements TVState{
 
@@ -13,12 +13,12 @@ public class PowerOff implements TVState{
 
 	@Override
 	public void turnOn() {
-		System.out.println("¿ª»ú");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½");
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("¹Ø»ú ÎÞÐ§");
+		System.out.println("ï¿½Ø»ï¿½ ï¿½ï¿½Ð§");
 	}
 
 }

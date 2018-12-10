@@ -1,10 +1,10 @@
-package com.dongnao.iterator;
+package com.example.administrator.patterndesign.IteratorPattern;
 /**
- * ÈÝÆ÷µÄ½Ó¿Ú
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Ä½Ó¿ï¿½
  * @author Administrator
  */
 public interface Aggregate<T> {
-	void  add(T  t);
+	void  add(T t);
 	
 	void remove(T t);
 	

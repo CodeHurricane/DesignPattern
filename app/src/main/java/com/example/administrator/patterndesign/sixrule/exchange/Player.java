@@ -1,4 +1,4 @@
-package com.dongnao.sixrule.exchange;
+package com.example.administrator.patterndesign.sixrule.exchange;
 
 public class Player {
 	private IGun iGun;
@@ -8,7 +8,7 @@ public class Player {
 		this.iGun=iGun;
 	}
 	/*
-	 * Éè¼ÆÆøÇò
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public void fire()
 	{

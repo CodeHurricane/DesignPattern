@@ -1,25 +1,25 @@
-package com.dongnao.state;
+package com.example.administrator.patterndesign.StatePattern;
 
 public class PowerOn  implements TVState{
 
 	@Override
 	public void nextChannel() {
-		System.out.println("ÏÂÒ»ÆµµÀ");
+		System.out.println("ï¿½ï¿½Ò»Æµï¿½ï¿½");
 	}
 
 	@Override
 	public void preChannel() {
-		System.out.println("ÉÏÒ»ÆµµÀ");
+		System.out.println("ï¿½ï¿½Ò»Æµï¿½ï¿½");
 	}
 
 	@Override
 	public void turnOn() {
-		System.out.println("ÕýÔÚ¿ª»ú");
+		System.out.println("ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½");
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("¹Ø»ú");
+		System.out.println("ï¿½Ø»ï¿½");
 	}
 
 }
